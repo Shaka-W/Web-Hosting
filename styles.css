@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #16c79a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  padding: 1rem 0;
+  background-color: #000;
+}
+
+.logo p {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+/* Navigation */
+.list-items {
+  display: flex;
+  list-style-type: none;
+}
+
+.list-item {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.nav-active {
+  color: var(--primary-color);
+}
+
+/* Showcase */
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-color: var(--primary-color);
+}
+
+.showcase .title {
+  font-size: 4rem;
+}
+
+/* Plans */
+.plan {
+  padding: 4rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.plan header {
+  text-align: center;
+}
+
+.plan .title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.plan .card {
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.7rem;
+}
+
+.card .price,
+.plan p:nth-child(3) {
+  font-size: 1.5rem;
+}
+
+.card:nth-child(2) .price {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.card .perks {
+  border-top: 1px solid #fff;
+  padding-top: 1rem;
+}
+
+.btn-getStarted {
+  display: inline-block;
+  background-color: var(--primary-color);
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+}
+
+/* Companies */
+.companies {
+  margin: 4rem 0;
+}
+
+.companies img {
+  width: 200px;
+}
+
+/* Features */
+.features {
+  padding: 4rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.features .title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.features .card {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 4rem 0;
+  background-color: #191919;
+  color: #fff;
+  text-align: center;
+}
+
+.footer .card:nth-child(3) {
+  max-width: 250px;
+}
+
+.footer i {
+  margin: 0 1rem 1rem 0;
+}
+
+/* Utilties */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 1rem 0;
+}
