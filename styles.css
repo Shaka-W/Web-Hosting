@@ -321,4 +321,22 @@ p {
   .list-item {
     margin: 0 0 1rem 0;
   }
+
+  .companies img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 460px) {
+  .showcase .title {
+    font-size: 1.5rem;
+  }
+
+  .showcase p {
+    font-size: 0.9rem;
+  }
+
+  .plan .title {
+    font-size: 1.7rem;
+  }
 }
